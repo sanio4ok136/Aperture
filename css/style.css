@@ -195,6 +195,7 @@ header nav li a{
 }
 .past_clients a{
     max-width: 128px;
+    display: inline-block;
 }
 .past_clients h2{
     margin-bottom: 15px;
@@ -296,4 +297,11 @@ header nav li a{
     border-radius: 14px;
     background-color: #000000;
     margin-right: 6px;
+}
+.owl-stage{
+    display: flex;
+    align-items: center;
+}
+.owl-item{
+    text-align: center;
 }
